@@ -1,95 +1,72 @@
-🛡️ Network Security Toolkit
+🛡️ NST – Network Security Toolkit
+NST is a comprehensive, terminal-based toolkit designed for network administrators, ethical hackers, and cybersecurity professionals. It consolidates essential reconnaissance, vulnerability assessment, and reporting functionalities into a single, user-friendly interface.
+GitHub
 
+🚀 Features
+Network Interface Information: Display all active network interfaces and their configurations.
 
-A powerful and user-friendly terminal-based toolkit designed for network administrators, ethical hackers, and cybersecurity professionals. This tool provides essential reconnaissance, vulnerability assessment, and reporting features in a single interface.
+Network Discovery Scan: Identify live hosts on a network using ARP or ICMP techniques.
 
-mathematica
-Copy
-Edit
-╔══════════════════════════════════════╗
-║            MAIN MENU                 ║
-╠══════════════════════════════════════╣
-║ 1.  Network Interface Information    ║
-║ 2.  Network Discovery Scan           ║
-║ 3.  Port Scanner                     ║
-║ 4.  OS Detection                     ║
-║ 5.  Vulnerability Check              ║
-║ 6.  Password Strength Checker        ║
-║ 7.  DNS Lookup                       ║
-║ 8.  Traceroute                       ║
-║ 9.  Generate Report                  ║
-║ 10. Set Target                       ║
-║ 11. Full Security Scan               ║
-║ 0.  Exit                             ║
-╚══════════════════════════════════════╝
-🔧 Features
-Network Interface Information
-View all active network interfaces and their configurations.
+Port Scanner: Scan open TCP/UDP ports on a specified target with customizable scan types.
 
-Network Discovery Scan
-Discover live hosts on a network using ARP or ICMP techniques.
+OS Detection: Determine the operating system of target machines.
 
-Port Scanner
-Scan open TCP/UDP ports on a specified target with customizable scan types.
+Vulnerability Check: Assess targets for known vulnerabilities.
 
-OS Detection
-Identify the operating system of a remote host via TCP/IP fingerprinting.
+Password Strength Checker: Evaluate the strength of user passwords.
 
-Vulnerability Check
-Perform basic vulnerability assessments on open ports and known services.
+DNS Lookup: Perform DNS queries to retrieve domain information.
 
-Password Strength Checker
-Test password strength using entropy and brute-force time estimation.
+Traceroute: Trace the route packets take to reach a network host.
 
-DNS Lookup
-Resolve domain names, find DNS records (A, MX, TXT, etc.).
+Generate Report: Compile scan results into a comprehensive report.
 
-Traceroute
-Map the route packets take to a remote host across the network.
+Set Target: Specify the target IP address or domain for scanning.
 
-Generate Report
-Automatically generate detailed scan reports in .txt or .html formats.
+Full Security Scan: Execute all available scans in a single operation.
+GitHub
+GitHub
 
-Set Target
-Set and manage your scanning target(s) for all modules.
-
-Full Security Scan
-Run a comprehensive scan that includes discovery, port scanning, OS detection, and vulnerability checking.
-
-🚀 Getting Started
-Requirements
-Python 3.8+
-
-nmap (for OS detection and advanced scanning)
-
-netifaces, socket, scapy, dns.resolver, termcolor, prettytable (Install via pip)
-
-Installation
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/network-security-toolkit.git
-cd network-security-toolkit
-
-
-
-
-
-#🖥️ Usage
-Launch the toolkit by running:
+🖥️ Installation
+Clone the repository:
 
 bash
 Copy
 Edit
-python3 main.py
-Navigate through the main menu using number keys to select desired modules.
+git clone https://github.com/S2-Akira/NST.git
+cd NST
+Install required dependencies:
 
-📄 Reporting
-Each scan or action can be saved using the Generate Report option, which creates a detailed output for logging or compliance purposes.
+Ensure you have Python 3.x installed. Then, install any necessary Python packages:
 
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Note: If requirements.txt is not provided, manually install dependencies as needed.
+
+Run the toolkit:
+
+bash
+Copy
+Edit
+python stable\ version.py
+Alternatively, for testing purposes:
+
+bash
+Copy
+Edit
+python testing.py
 ⚠️ Disclaimer
-This toolkit is intended for educational and authorized security testing only. Unauthorized access or scanning is illegal. The developers are not responsible for any misuse of this software.
+This tool is intended for educational and authorized testing purposes only. Unauthorized scanning or exploitation of networks without explicit permission is illegal and unethical. Always obtain proper authorization before conducting any security assessments.
 
-👨‍💻 Author
-Created by S2
-GitHub: @S2 AKIRA
+📄 License
+This project is licensed under the MIT License.
+
+🤝 Contributing
+Contributions are welcome! If you have suggestions for improvements or new features, feel free to fork the repository and submit a pull request.
+
+📫 Contact
+For questions or feedback, please open an issue on the GitHub repository.
+
+Developed by S2-Akira
