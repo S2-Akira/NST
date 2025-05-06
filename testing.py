@@ -2,7 +2,7 @@
 """
 NST (Network Security Toolkit) - A simple network security toolkit for ethical hacking
 """
-
+import scapy.all as scapy 
 import os
 import sys
 import socket
